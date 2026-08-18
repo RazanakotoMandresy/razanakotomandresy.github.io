@@ -62,12 +62,12 @@ export class App implements OnInit {
 
   education = computed(() => {
     const l = this.lang();
-    return {
-      degree:      l === 'fr' ? portfolioData.education.degree_fr      : portfolioData.education.degree_en,
-      school:      portfolioData.education.school,
-      period:      portfolioData.education.period,
-      description: l === 'fr' ? portfolioData.education.description_fr : portfolioData.education.description_en,
-    };
+    return portfolioData.education.map(edu => ({
+      degree:      l === 'fr' ? edu.degree_fr      : edu.degree_en,
+      school:      edu.school,
+      period:      edu.period,
+      description: l === 'fr' ? edu.description_fr : edu.description_en,
+    }));
   });
 
   // ── Typing animation internals ────────────────────────────────────────────

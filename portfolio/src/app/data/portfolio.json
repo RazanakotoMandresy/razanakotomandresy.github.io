@@ -2,150 +2,183 @@
   "personal": {
     "name": "Mandresy",
     "fullName": "Razanakoto Andriamelintsoa Diary",
-    "title": "DevOps | DevSecOps",
+    "title": "DevOps / DevSecOps Engineer",
     "location": "Antananarivo, Madagascar",
     "email": "razanakotomandresy@gmail.com",
-    "phone": "+261 34 718 0577",
+    "phone": "+261 34 71 805 77",
     "phoneTel": "+261347180577",
-    "phone2": "+261 33 282 6408",
+    "phone2": "+261 33 28 264 08",
     "github": "https://github.com/RazanakotoMandresy",
     "githubPro": "https://github.com/RazanakotoMandresy-pro",
     "linkedin": "https://www.linkedin.com/in/razanakoto-mandresy-0227b22a6/",
     "stats": [
-      { "value": "20+", "label_en": "Technologies", "label_fr": "Technologies" },
+      { "value": "30+", "label_en": "Technologies", "label_fr": "Technologies" },
       { "value": "3",   "label_en": "Languages",    "label_fr": "Langues" }
     ]
   },
 
   "spokenLanguages": [
     { "name_en": "Malagasy", "name_fr": "Malgache", "level_en": "Native",       "level_fr": "Natif",         "percent": 100, "flag": "🇲🇬" },
-    { "name_en": "French",   "name_fr": "Français",  "level_en": "Advanced",     "level_fr": "Avancé",        "percent": 85,  "flag": "🇫🇷" },
-    { "name_en": "English",  "name_fr": "Anglais",   "level_en": "Intermediate", "level_fr": "Intermédiaire", "percent": 60,  "flag": "🇬🇧" }
+    { "name_en": "French",   "name_fr": "Français",  "level_en": "Fluent / Professional", "level_fr": "Courant / Professionnel", "percent": 90, "flag": "🇫🇷" },
+    { "name_en": "English",  "name_fr": "Anglais",   "level_en": "Professional Working Proficiency", "level_fr": "Compétence professionnelle", "percent": 70, "flag": "🇬🇧" }
   ],
 
   "skillCategories": [
     {
-      "name": "Cloud & Infrastructure",
+      "name": "Cloud, IaC & FinOps",
       "icon": "☁️",
       "color": "cyan",
       "skills": [
-        { "name": "AWS",        "icon": "🟠" },
-        { "name": "AWS ECS",    "icon": "🐳" },
-        { "name": "AWS S3",     "icon": "🗄️" },
-        { "name": "CloudFront", "icon": "🌐" },
-        { "name": "VPC Peering","icon": "🔗" },
-        { "name": "Terraform",  "icon": "🟣" },
-        { "name": "Docker",     "icon": "🐋" },
-        { "name": "Podman",     "icon": "📦" },
-        { "name": "Kubernetes", "icon": "⚙️" }
+        { "name": "AWS",                    "icon": "🟠" },
+        { "name": "AWS Fargate",            "icon": "⚡" },
+        { "name": "AWS ECS",                "icon": "🐳" },
+        { "name": "AWS Lambda",             "icon": "λ" },
+        { "name": "AWS S3",                 "icon": "🗄️" },
+        { "name": "CloudFront",             "icon": "🌐" },
+        { "name": "VPC / Network ACLs",     "icon": "🔒" },
+        { "name": "Security Groups",        "icon": "🛡️" },
+        { "name": "Transfer Family SFTP",   "icon": "📤" },
+        { "name": "SES",                    "icon": "✉️" },
+        { "name": "CloudWatch",             "icon": "📊" },
+        { "name": "Terraform",              "icon": "🟣" },
+        { "name": "Firebase",               "icon": "🔥" },
+        { "name": "IAM Least Privilege",    "icon": "🔑" },
+        { "name": "Cost Optimization",      "icon": "💰" }
       ]
     },
     {
-      "name": "Development",
-      "icon": "💻",
-      "color": "violet",
-      "skills": [
-        { "name": "Golang",      "icon": "🐹" },
-        { "name": "TypeScript",  "icon": "🔷" },
-        { "name": "Python",      "icon": "🐍" },
-        { "name": "Shell Script","icon": "🖥️" },
-        { "name": "NestJS",      "icon": "🔴" },
-        { "name": "Angular",     "icon": "🔺" },
-        { "name": "ReactJS",     "icon": "⚛️" }
-      ]
-    },
-    {
-      "name": "CI/CD & Tools",
+      "name": "DevSecOps & CI/CD",
       "icon": "🔄",
       "color": "green",
       "skills": [
-        { "name": "GitHub Actions",  "icon": "⚡" },
-        { "name": "ArgoCD",          "icon": "🚀" },
-        { "name": "Git",             "icon": "🌿" },
-        { "name": "Kong API Gateway","icon": "🦍" },
-        { "name": "Jira",            "icon": "📋" },
-        { "name": "Confluence",      "icon": "📝" }
+        { "name": "CI/CD",             "icon": "⚙️" },
+        { "name": "GitHub Actions",    "icon": "⚡" },
+        { "name": "SonarQube (SAST)",  "icon": "🔍" },
+        { "name": "ArgoCD",            "icon": "🚀" },
+        { "name": "Dependabot",        "icon": "🤖" },
+        { "name": "TruffleHog",        "icon": "🐷" },
+        { "name": "Kong API Gateway",  "icon": "🦍" },
+        { "name": "Git",               "icon": "🌿" },
+        { "name": "Jira",              "icon": "📋" },
+        { "name": "Confluence",        "icon": "📝" },
+        { "name": "Agile",             "icon": "🔄" }
       ]
     },
     {
-      "name": "Databases",
+      "name": "Scripting & Automation",
+      "icon": "💻",
+      "color": "violet",
+      "skills": [
+        { "name": "Python",      "icon": "🐍" },
+        { "name": "Bash",        "icon": "🖥️" },
+        { "name": "Golang",      "icon": "🐹" },
+        { "name": "TypeScript",  "icon": "🔷" },
+        { "name": "Make",        "icon": "📦" },
+        { "name": "SSH / SFTP",  "icon": "🔐" },
+        { "name": "REST & gRPC", "icon": "🌐" }
+      ]
+    },
+    {
+      "name": "Observability & Logging",
+      "icon": "📊",
+      "color": "yellow",
+      "skills": [
+        { "name": "Grafana",     "icon": "📈" },
+        { "name": "Loki",        "icon": "📋" },
+        { "name": "Prometheus",  "icon": "🔥" },
+        { "name": "CloudWatch",  "icon": "☁️" },
+        { "name": "Sentry",      "icon": "🛡️" },
+        { "name": "Alerting",    "icon": "🚨" },
+        { "name": "LogQL",       "icon": "🔍" },
+        { "name": "PromQL",      "icon": "📊" },
+        { "name": "SLI / SLO",   "icon": "🎯" }
+      ]
+    },
+    {
+      "name": "Databases & Data Streaming",
       "icon": "🗄️",
       "color": "orange",
       "skills": [
         { "name": "PostgreSQL",   "icon": "🐘" },
-        { "name": "MongoDB",      "icon": "🍃" },
-        { "name": "EventstoreDB", "icon": "📚" },
+        { "name": "MongoDB Atlas","icon": "🍃" },
+        { "name": "EventStoreDB", "icon": "📚" },
         { "name": "RabbitMQ",     "icon": "🐰" },
-        { "name": "Warpstream",   "icon": "🌊" }
+        { "name": "WarpStream",   "icon": "🌊" }
       ]
     },
     {
-      "name": "Architecture",
+      "name": "Architecture & Containers",
       "icon": "🏗️",
       "color": "pink",
       "skills": [
-        { "name": "Microservices", "icon": "🔧" },
-        { "name": "Monorepo (Nx)", "icon": "📦" },
-        { "name": "DDD",           "icon": "🎯" },
-        { "name": "CQRS",          "icon": "↔️" },
-        { "name": "TDD",           "icon": "✅" },
-        { "name": "gRPC",          "icon": "⚡" },
-        { "name": "REST",          "icon": "🌐" }
+        { "name": "Kubernetes",        "icon": "⚙️" },
+        { "name": "Docker",            "icon": "🐋" },
+        { "name": "Container Orchestration", "icon": "🎛️" },
+        { "name": "Microservices",     "icon": "🔧" },
+        { "name": "Clean Architecture","icon": "🧹" },
+        { "name": "Monorepo",          "icon": "📦" },
+        { "name": "Linux",             "icon": "🐧" },
+        { "name": "System Troubleshooting", "icon": "🔩" }
       ]
     },
     {
-      "name": "Observability",
-      "icon": "📊",
-      "color": "yellow",
+      "name": "AI Tools & Productivity",
+      "icon": "🤖",
+      "color": "violet",
       "skills": [
-        { "name": "Grafana",    "icon": "📈" },
-        { "name": "Loki",       "icon": "📋" },
-        { "name": "Prometheus", "icon": "🔥" },
-        { "name": "LogQL",      "icon": "🔍" },
-        { "name": "PromQL",     "icon": "📊" },
-        { "name": "Sentry",     "icon": "🛡️" },
-        { "name": "Alerting",   "icon": "🚨" }
+        { "name": "Claude Code AI Sub-agents", "icon": "🤖" },
+        { "name": "Antigravity",               "icon": "🚀" }
       ]
     }
   ],
 
   "experiences": [
     {
-      "role_en": "DevOps Engineer",
-      "role_fr": "Ingénieur DevOps",
-      "company": "ITRAS Group – Orchis MG",
-      "period_en": "December 2024 – Present",
-      "period_fr": "Décembre 2024 – Présent",
+      "role_en": "DevOps / DevSecOps Engineer",
+      "role_fr": "Ingénieur DevOps / DevSecOps",
+      "company": "Orchis International",
+      "period_en": "December 2024 – August 2026",
+      "period_fr": "Décembre 2024 – Août 2026",
       "type_en": "Permanent",
       "type_fr": "CDI",
       "current": true,
-      "description_en": "Setup and management of AWS Cloud infrastructures (ECS, S3, CloudFront, VPC peering). Deployment of microservices with Terraform, GitHub Actions and ArgoCD. Full observability implementation with the LGTM stack (Grafana, Loki, Prometheus). Microservices architecture in Nx monorepo with DDD/CQRS.",
-      "description_fr": "Mise en place et gestion d'infrastructures Cloud AWS (ECS, S3, CloudFront, VPC peering). Déploiement de microservices avec Terraform, Github Actions et ArgoCD. Mise en œuvre de l'observabilité complète avec la stack LGTM (Grafana, Loki, Prometheus). Architecture microservices en monorepo Nx avec DDD/CQRS.",
-      "tags": ["AWS", "Terraform", "NestJS", "Angular", "GitHub Actions", "Grafana", "Kong", "RabbitMQ"]
+      "description_en": "Infrastructure & IaC Management (AWS & Firebase): Terraform provisioning of highly available multi-AZ Cloud architectures. Configured AWS Fargate, ECS, Serverless Lambda, and Firebase services with secure data transfers (AWS Transfer Family SFTP, SES). Cloud resource optimization (ECS, S3, CloudFront) resulting in a 30% reduction in AWS costs (FinOps). DevSecOps & Secure CI/CD: Full automation of vulnerability and secret scanning (TruffleHog, Dependabot), SonarQube integration (SAST), hardening of IAM permissions and GitHub Actions pipelines. API Security & Network Architecture: Design and deployment of isolated VPC infrastructures secured by Network ACLs and Security Groups with Kong API Gateway (Lua plugins, JWT, CORS). Data Pipelines & Observability: Administration of message brokers (WarpStream, RabbitMQ, EventStoreDB, MongoDB Atlas) with real-time monitoring via Prometheus, Grafana, Loki, CloudWatch. Automation & AI Productivity: Automated infrastructure operations using Python/Shell (Bash) scripts and integrated Claude AI code sub-agents.",
+      "description_fr": "Gestion d'infrastructure & IaC (AWS & Firebase) : Provisioning Terraform d'architectures Cloud multi-AZ hautement disponibles. Configuration d'AWS Fargate, ECS, Lambda Serverless et services Firebase avec transferts de données sécurisés (AWS Transfer Family SFTP, SES). Optimisation des ressources Cloud (ECS, S3, CloudFront) avec réduction de 30% des coûts AWS (FinOps). DevSecOps & CI/CD sécurisé : Automatisation complète du scan des vulnérabilités et secrets (TruffleHog, Dependabot), intégration SonarQube (SAST), durcissement des permissions IAM et pipelines GitHub Actions. Sécurité API & Architecture Réseau : Conception et déploiement d'infrastructures VPC isolées sécurisées par Network ACLs et Security Groups avec Kong API Gateway (plugins Lua, JWT, CORS). Pipelines de données & Observabilité : Administration de brokers de messages (WarpStream, RabbitMQ, EventStoreDB, MongoDB Atlas) avec monitoring temps réel via Prometheus, Grafana, Loki, CloudWatch. Automatisation & Productivité IA : Automatisation des opérations d'infrastructure avec des scripts Python/Shell (Bash) et intégration de sous-agents IA Claude.",
+      "tags": ["AWS", "Terraform", "Firebase", "Fargate", "ECS", "Lambda", "SonarQube", "GitHub Actions", "TruffleHog", "Dependabot", "Kong", "VPC", "Network ACLs", "Security Groups", "Prometheus", "Grafana", "Loki", "CloudWatch", "RabbitMQ", "MongoDB", "Kubernetes", "Docker", "Python", "Bash", "Claude AI"]
     },
     {
-      "role_en": "Fullstack Developer Intern",
-      "role_fr": "Stagiaire Développeur Fullstack",
-      "company": "NosyTech",
+      "role_en": "Fullstack & Scripting Developer Intern",
+      "role_fr": "Stagiaire Développeur Fullstack & Scripting",
+      "company": "Nosy Tech",
       "period_en": "February 2024 – July 2024",
       "period_fr": "Février 2024 – Juillet 2024",
       "type_en": "Internship",
       "type_fr": "Stage",
       "current": false,
-      "description_en": "Development of fullstack web applications using ReactJS for the frontend and Golang/TypeScript for the backend. Setup of CI/CD pipelines with GitHub Actions.",
-      "description_fr": "Développement d'applications web fullstack en utilisant ReactJS pour le frontend et Golang/TypeScript pour le backend. Mise en place de pipelines CI/CD avec GitHub Actions.",
-      "tags": ["ReactJS", "Golang", "TypeScript", "GitHub Actions", "Git"]
+      "description_en": "Container Orchestration & Kubernetes: Deployment and management of containerized applications using Kubernetes and Docker, deployment manifest configuration, and application service management. Backend Development & Scripting: Design and development of web features and backend automation scripts (Python, Golang, TypeScript, ReactJS). Version Control & CI/CD: Automation of build workflows, integration of baseline security checks, and continuous deployment using Git and GitHub Actions.",
+      "description_fr": "Orchestration de conteneurs & Kubernetes : Déploiement et gestion d'applications conteneurisées avec Kubernetes et Docker, configuration des manifests de déploiement, et gestion des services applicatifs. Développement Backend & Scripting : Conception et développement de fonctionnalités web et scripts d'automatisation backend (Python, Golang, TypeScript, ReactJS). Contrôle de version & CI/CD : Automatisation des workflows de build, intégration de contrôles de sécurité de base, et déploiement continu avec Git et GitHub Actions.",
+      "tags": ["Kubernetes", "Docker", "Python", "Golang", "TypeScript", "ReactJS", "GitHub Actions", "Git"]
     }
   ],
 
-  "education": {
-    "degree_en": "Bachelor in Computer Science (L3) & DTS (L2)",
-    "degree_fr": "Licence en Informatique (L3) & DTS (L2)",
-    "school": "Institut Supérieur IS-IESI Anjanahary",
-    "period": "2021 – 2024",
-    "description_en": "Three years of higher education: algorithms and data structures, programming, and web development.",
-    "description_fr": "Trois ans d'études supérieures : algorithmes, structures de données, programmation et développement web."
-  },
+  "education": [
+    {
+      "degree_en": "Master 1 in Computer Science (Distance Learning)",
+      "degree_fr": "Master 1 en Informatique (Enseignement à distance)",
+      "school": "PEF University",
+      "period": "2025 – 2026",
+      "description_en": "Master's degree in Computer Science, distance learning program.",
+      "description_fr": "Master en Informatique, programme d'enseignement à distance."
+    },
+    {
+      "degree_en": "Bachelor's Degree in Computer Science (L3) & Higher Diploma (L2)",
+      "degree_fr": "Licence en Informatique (L3) & Diplôme Supérieur (L2)",
+      "school": "IS-IESI Higher Institute Anjanahary",
+      "period": "2021 – 2024",
+      "description_en": "Three years of higher education: algorithms and data structures, programming, and web development.",
+      "description_fr": "Trois ans d'études supérieures : algorithmes, structures de données, programmation et développement web."
+    }
+  ],
 
   "ui": {
     "en": {
@@ -158,12 +191,12 @@
       ],
       "taglines": [
         "DevOps Engineer",
-        "DevSecOps Specialist",
+        "DevSecOps Engineer",
         "Cloud Architect",
         "Infrastructure Automation"
       ],
-      "bio": "I am a <strong class=\"text-slate-900 dark:text-white\">DevOps & DevSecOps</strong> engineer passionate about optimizing development cycles and securing infrastructures. With a strong technical background in Fullstack development (Golang/TypeScript), I help companies implement distributed architectures and manage Cloud infrastructures.",
-      "bio2": "With a <strong class=\"text-cyan-600 dark:text-cyan-400\">FinOps</strong> mindset, I strive to maximize performance while optimizing operational costs. I currently work at <strong class=\"text-violet-600 dark:text-violet-400\">ITRAS Group – Orchis MG</strong> where I manage complex AWS infrastructures and microservices architectures.",
+      "bio": "I am a <strong class=\"text-slate-900 dark:text-white\">DevOps / DevSecOps Engineer</strong> specialized in designing high-availability Cloud architectures on <strong class=\"text-cyan-600 dark:text-cyan-400\">AWS (Fargate, ECS)</strong> and managing Infrastructure as Code with <strong class=\"text-violet-600 dark:text-violet-400\">Terraform</strong>. Proven expertise in implementing secure CI/CD pipelines, deploying containerized applications with Docker and Kubernetes, and enforcing IAM least-privilege principles.",
+      "bio2": "With a strong track record in <strong class=\"text-cyan-600 dark:text-cyan-400\">full-stack observability (LGTM stack)</strong> and <strong class=\"text-emerald-600 dark:text-emerald-400\">cloud cost optimization (FinOps)</strong>, I ensure system resilience and performance. I currently work at <strong class=\"text-violet-600 dark:text-violet-400\">Orchis International</strong> where I manage complex AWS infrastructures and secure CI/CD pipelines.",
       "hero": {
         "cta1": "Contact me",
         "cta2": "See my journey",
@@ -207,12 +240,12 @@
       ],
       "taglines": [
         "Ingénieur DevOps",
-        "Spécialiste DevSecOps",
+        "Ingénieur DevSecOps",
         "Architecte Cloud",
         "Automatisation d'Infrastructure"
       ],
-      "bio": "Je suis <strong class=\"text-slate-900 dark:text-white\">DevOps & DevSecOps</strong> passionné par l'optimisation des cycles de développement et la sécurité des infrastructures. Fort d'une base technique solide en développement Fullstack (Golang/TypeScript), j'accompagne les entreprises dans la mise en place d'architectures distribuées et la gestion d'infrastructures Cloud.",
-      "bio2": "Orienté <strong class=\"text-cyan-600 dark:text-cyan-400\">FinOps</strong>, je m'efforce de maximiser la performance tout en optimisant les coûts opérationnels. Je travaille actuellement chez <strong class=\"text-violet-600 dark:text-violet-400\">ITRAS Group – Orchis MG</strong> où je gère des infrastructures AWS complexes et des architectures microservices.",
+      "bio": "Je suis <strong class=\"text-slate-900 dark:text-white\">Ingénieur DevOps / DevSecOps</strong> spécialisé dans la conception d'architectures Cloud haute disponibilité sur <strong class=\"text-cyan-600 dark:text-cyan-400\">AWS (Fargate, ECS)</strong> et la gestion d'Infrastructure as Code avec <strong class=\"text-violet-600 dark:text-violet-400\">Terraform</strong>. Expertise prouvée dans la mise en place de pipelines CI/CD sécurisés, le déploiement d'applications conteneurisées avec Docker et Kubernetes, et l'application du principe de moindre privilège IAM.",
+      "bio2": "Fort d'une solide expérience en <strong class=\"text-cyan-600 dark:text-cyan-400\">observabilité full-stack (stack LGTM)</strong> et en <strong class=\"text-emerald-600 dark:text-emerald-400\">optimisation des coûts Cloud (FinOps)</strong>, je garantis la résilience et la performance des systèmes. Je travaille actuellement chez <strong class=\"text-violet-600 dark:text-violet-400\">Orchis International</strong> où je gère des infrastructures AWS complexes et des pipelines CI/CD sécurisés.",
       "hero": {
         "cta1": "Me contacter",
         "cta2": "Voir mon parcours",
