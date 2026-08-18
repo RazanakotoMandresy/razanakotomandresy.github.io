@@ -195,7 +195,7 @@
         "Cloud Architect",
         "Infrastructure Automation"
       ],
-      "bio": "I am a <strong class=\"text-slate-900 dark:text-white\">DevOps / DevSecOps Engineer</strong> specialized in designing high-availability Cloud architectures on <strong class=\"text-cyan-600 dark:text-cyan-400\">AWS (Fargate, ECS)</strong> and managing Infrastructure as Code with <strong class=\"text-violet-600 dark:text-violet-400\">Terraform</strong>. Proven expertise in implementing secure CI/CD pipelines, deploying containerized applications with Docker and Kubernetes, and enforcing IAM least-privilege principles.",
+      "bio": "I am a <strong class=\"text-slate-900 dark:text-white\">DevOps / DevSecOps Engineer</strong> specialized in designing high-availability Cloud architectures on <strong class=\"text-cyan-600 dark:text-cyan-400\">AWS</strong> and managing Infrastructure as Code with <strong class=\"text-violet-600 dark:text-violet-400\">Terraform</strong>. Proven expertise in implementing secure CI/CD pipelines, deploying containerized applications with Docker and Kubernetes, and enforcing IAM least-privilege principles.",
       "bio2": "With a strong track record in <strong class=\"text-cyan-600 dark:text-cyan-400\">full-stack observability (LGTM stack)</strong> and <strong class=\"text-emerald-600 dark:text-emerald-400\">cloud cost optimization (FinOps)</strong>, I ensure system resilience and performance. I currently work at <strong class=\"text-violet-600 dark:text-violet-400\">Orchis International</strong> where I manage complex AWS infrastructures and secure CI/CD pipelines.",
       "hero": {
         "cta1": "Contact me",
@@ -244,7 +244,7 @@
         "Architecte Cloud",
         "Automatisation d'Infrastructure"
       ],
-      "bio": "Je suis <strong class=\"text-slate-900 dark:text-white\">Ingénieur DevOps / DevSecOps</strong> spécialisé dans la conception d'architectures Cloud haute disponibilité sur <strong class=\"text-cyan-600 dark:text-cyan-400\">AWS (Fargate, ECS)</strong> et la gestion d'Infrastructure as Code avec <strong class=\"text-violet-600 dark:text-violet-400\">Terraform</strong>. Expertise prouvée dans la mise en place de pipelines CI/CD sécurisés, le déploiement d'applications conteneurisées avec Docker et Kubernetes, et l'application du principe de moindre privilège IAM.",
+      "bio": "Je suis <strong class=\"text-slate-900 dark:text-white\">Ingénieur DevOps / DevSecOps</strong> spécialisé dans la conception d'architectures Cloud haute disponibilité sur <strong class=\"text-cyan-600 dark:text-cyan-400\">AWS</strong> et la gestion d'Infrastructure as Code avec <strong class=\"text-violet-600 dark:text-violet-400\">Terraform</strong>. Expertise prouvée dans la mise en place de pipelines CI/CD sécurisés, le déploiement d'applications conteneurisées avec Docker et Kubernetes, et l'application du principe de moindre privilège IAM.",
       "bio2": "Fort d'une solide expérience en <strong class=\"text-cyan-600 dark:text-cyan-400\">observabilité full-stack (stack LGTM)</strong> et en <strong class=\"text-emerald-600 dark:text-emerald-400\">optimisation des coûts Cloud (FinOps)</strong>, je garantis la résilience et la performance des systèmes. Je travaille actuellement chez <strong class=\"text-violet-600 dark:text-violet-400\">Orchis International</strong> où je gère des infrastructures AWS complexes et des pipelines CI/CD sécurisés.",
       "hero": {
         "cta1": "Me contacter",
