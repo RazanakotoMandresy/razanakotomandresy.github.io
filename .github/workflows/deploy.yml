@@ -3,9 +3,8 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - main   # se déclenche à chaque push sur main
+      - main
 
-  # Permet aussi de lancer manuellement depuis l'onglet Actions
   workflow_dispatch:
 
 permissions:
@@ -13,7 +12,6 @@ permissions:
   pages: write
   id-token: write
 
-# Un seul déploiement à la fois ; attend que le précédent se termine (ne l'annule pas)
 concurrency:
   group: pages
   cancel-in-progress: false
@@ -40,7 +38,13 @@ jobs:
 
       - name: Build
         working-directory: portfolio
-        run: npm run build -- --base-href /
+        run: npx ng build --configuration production --base-href /
+
+      - name: Add .nojekyll and 404.html fallback
+        working-directory: portfolio/dist/portfolio/browser
+        run: |
+          touch .nojekyll
+          cp index.html 404.html
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
